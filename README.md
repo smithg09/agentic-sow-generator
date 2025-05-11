@@ -2,6 +2,9 @@
 
 A full-stack AI-powered tool to dynamically generate Statements of Work (SOW) using agentic workflows and memory-based retrieval.
 
+<img width="1417" alt="image" src="https://github.com/user-attachments/assets/b1746ad9-3771-4ab0-8b51-ceb2242a94a2" />
+
+
 ## Tech Stack
 
 - **Frontend**: React, Typescript, shadcn-ui  
