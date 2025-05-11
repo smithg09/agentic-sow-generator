@@ -127,7 +127,7 @@ The Flask server will start and handle LangGraph-based multi-agent interactions 
   - Document preview and chat-based refinement
   - Export functionality for generated documents
 
-## ⚠️ Notes
+## Notes
 
 - Ensure both client and server are running simultaneously.  
 - You may need to allow CORS depending on deployment.  
