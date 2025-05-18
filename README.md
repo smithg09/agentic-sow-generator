@@ -1,6 +1,7 @@
-# Agentic SOW Generator
+# Sowgenx 
 
-A full-stack AI-powered tool to dynamically generate Statements of Work (SOW) using agentic workflows and memory-based retrieval.
+
+A full-stack AI-powered tool to generate Statements of Work (SOW) using agentic workflows and memory-based retrieval.
 
 <img width="1417" alt="image" src="https://github.com/user-attachments/assets/57dd39ca-2749-4ed8-a6ce-7e1e3a00ef88" />
 
