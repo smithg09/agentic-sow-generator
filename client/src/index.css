@@ -109,6 +109,9 @@ ul {
 ol {
   list-style-type: decimal;
 }
+.wmde-markdown h2 {
+  border-bottom: unset;
+}
 /* 
  .wmde-markdown,
   .wmde-markdown-var {

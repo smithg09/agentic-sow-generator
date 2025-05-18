@@ -18,3 +18,4 @@ flask_cors
 flask_sqlalchemy
 typing_extensions
 uuid
+requests

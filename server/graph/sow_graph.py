@@ -31,23 +31,28 @@ formatting_agent = FormattingAgent()
 # Agent processing functions
 def get_relevant_context(state: State):
     """Get relevant context for the query"""
+    print('Getting Relevant Context from Vector')
     context = drafting_agent.get_relevant_context(state['user_query'])
     return {'additional_context': context, 'retryCount': 0}
 
 def process_drafting(state: State):
     """Process drafting stage"""
+    print('Drafting your document...')
     return drafting_agent.process_sow(state)
 
 def process_compliance(state: State):
     """Process compliance checking"""
+    print('Running compliance checks...')
     return compliance_agent.process_sow(state)
 
 def process_validation(state: State):
     """Process validation stage"""
+    print('Running validation checks...')
     return validation_agent.process_sow(state)
 
 def process_formatting(state: State):
     """Process formatting stage"""
+    print('Formatting your document')
     return formatting_agent.process_sow(state)
 
 def agent_router(state: State):
